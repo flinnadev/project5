@@ -1,3 +1,51 @@
 * {
   box-sizing: border-box;
 }
+
+/*:first-child
+:last-child
+:first-of-type
+:last-of-type*/
+
+body {
+  padding: 10px;
+}
+
+.row {
+  color: white;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+thead {
+  background-color: white;
+}
+thead th:nth-child(1) {
+  background-color: #7787a9;
+}
+thead th:nth-child(2) {
+  background-color: #4d628f;
+}
+thead th:nth-child(3) {
+  background-color: #2a4271;
+}
+thead th:nth-child(4) {
+  background-color: #152857;
+}
+
+tbody th {
+  text-align: left;
+}
+button {
+  padding: 6px 20px;
+}
+
+tr:nth-child(2n + 1) {
+  background-color: #dbdbdb;
+}
+tr:nth-child(2n) {
+  background-color: #f3f3f3;
+}
